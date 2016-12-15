@@ -1,3 +1,3 @@
 # usage
 ## svn
-docker run --rm -it -p 33690:3690 -v /mysvn:/svn --name svn-server elancom/docker-svn
+docker run --rm -it -p 2589:3690 -v /data/svn:/svn --name svn-server elancom/docker-svn
