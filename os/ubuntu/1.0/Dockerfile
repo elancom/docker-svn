@@ -14,6 +14,7 @@ RUN echo 'install complated'
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod u+x /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh", "/bin/bash"]
+# ENTRYPOINT ["/entrypoint.sh", "/bin/bash"]
+CMD /bin/bash
 
 EXPOSE 8888
